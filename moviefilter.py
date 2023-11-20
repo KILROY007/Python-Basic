@@ -85,10 +85,10 @@ def main():
         print("3. Movies having IMDB rating more greater than 7 ")
         print("4. Movies having ratings greater than 1000")
         print("5. Exit\n")
-        choice1 = int(input("Enter the Choice: "))
+        choice = int(input("Enter the Choice: "))
         filter = filterOptions("movies_initial.csv")
         pdf = generatePdf()
-        match choice1:
+        match choice:
             case 1:
                 language = str(input("Enter the language to be filtered: "))
                 filtered_movies = filter.filterByLanguage(language)
