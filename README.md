@@ -30,9 +30,9 @@ Follow these steps to run the program:
 
 3. **Run the Script:**
     ```bash
-    python script_name.py
+    python moviefilter.py
     ```
-   Replace `script_name.py` with the actual name of your Python script.
+   Replace `moviefilter.py` with the actual name of your Python script.
 
 4. **Interact with the Program:**
     - Follow the on-screen instructions to choose the filtering criteria.
@@ -44,10 +44,3 @@ Follow these steps to run the program:
 
 6. **Exit the Program:**
     - Choose option 5 to exit the program.
-
-### Additional Notes
-
-- Ensure that the CSV file (`movies_initial.csv`) is correctly formatted with headers like "title," "language," "country," "imdbRating," and "rating."
-- The generated PDF files will be saved in the same directory as the script.
-
-Feel free to customize the code and adapt it to your specific needs.
